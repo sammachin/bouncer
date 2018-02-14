@@ -1,0 +1,16 @@
+{
+  "version": "2.0",
+  "app_name": "bouncer",
+  "environment_variables": {
+      "NEXMO_APP_ID": "fa15f148-2f73-49e5-941e-9a40fd1ab8e3",
+      "S3_BUCKET" : "s3.sammachin.com",
+      "REGION" : "eu-west-1",
+      "EMAIL_TO" : "sam@sammachin.com",
+      "EMAIL_FROM" : "bouncer@sammachin.com"
+  },
+  "stages": {
+    "dev": {
+      "api_gateway_stage": "api"
+    }
+  }
+}
