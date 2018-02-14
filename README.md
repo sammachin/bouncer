@@ -23,10 +23,10 @@ To set this up you will need:
 Firstly clone this repo to your local machine.
 
 ## AWS
-###S3
+### S3
 You will need to create an S3 bucket in your prefferred region, then set this bucket name and region in the `.chalice/config.json` file `environment_varibles`
 
-###SES
+### SES
 You will also need to verify either a domain or the addresses you will use for email in SES for the same region.
 You can choose to use the same address for both `EMAIL_TO` and `EMAIL_FROM` in the `config.json`
 
